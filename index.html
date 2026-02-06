@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Jesús López</title>
+  <meta name="description" content="Desarrollador web junior backend / full stack centrado en código limpio, fundamentos de backend y proyectos reales." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-name">Jesús López</span>
+        <span class="brand-role">Desarrollador web junior backend / full stack</span>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Desarrollador web junior backend / full stack</p>
+          <h1 id="hero-title">Proyectos web limpios y fiables que resuelven problemas reales.</h1>
+          <p class="lead">Centrado en código limpio, fundamentos de backend y proyectos reales.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">Ver proyectos</a>
+            <a class="btn btn-ghost" href="#contact">Contactar</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-card-inner">
+            <p>Abierto a puestos junior</p>
+            <p>Con base en España · Disponible para remoto y presencial</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">Sobre mí</h2>
+        <p>
+          Tengo un Grado Superior en Desarrollo de Aplicaciones Web (DAW). Durante mis prácticas y proyectos académicos,
+          trabajé en aplicaciones web reales bajo restricciones como plazos, documentación y trabajo en equipo.
+          Disfruto creando soluciones simples y mantenibles y conectando frontends limpios con bases sólidas de backend.
+          Estoy en aprendizaje continuo y busco oportunidades para crecer como desarrollador.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Habilidades técnicas</h2>
+        <div class="skills-grid">
+          <div class="skills-card">
+            <h3>Backend</h3>
+            <ul>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>APIs REST</li>
+            </ul>
+          </div>
+          <div class="skills-card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skills-card">
+            <h3>Bases de datos</h3>
+            <ul>
+              <li>MySQL</li>
+            </ul>
+          </div>
+          <div class="skills-card">
+            <h3>Herramientas</h3>
+            <ul>
+              <li>Git, GitHub</li>
+              <li>VS Code, Eclipse</li>
+              <li>Docker (básico), Linux</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Proyectos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Gestor de inventario</h3>
+            <p>Aplicación web CRUD para gestionar stock de almacén con acceso por roles e historial de auditoría.</p>
+            <p class="tech">Java · Spring Boot · MySQL · HTML · CSS</p>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">GitHub</a>
+              <a class="btn" href="#">Demo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Portal de citas clínicas</h3>
+            <p>Portal responsive para solicitar y gestionar citas médicas con confirmación por correo.</p>
+            <p class="tech">Java · REST · MySQL · JS</p>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">GitHub</a>
+              <a class="btn" href="#">Demo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Página de servicios municipales</h3>
+            <p>Sitio web estático y accesible para servicios locales, con navegación clara y buen contenido.</p>
+            <p class="tech">HTML · CSS · Accesibilidad</p>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">GitHub</a>
+              <a class="btn" href="#">Demo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Directorio de empleados</h3>
+            <p>Directorio con búsqueda y filtros, con vistas de detalle para un equipo interno pequeño.</p>
+            <p class="tech">JavaScript · HTML · CSS</p>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">GitHub</a>
+              <a class="btn" href="#">Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="cv" aria-labelledby="cv-title">
+      <div class="container cv-section">
+        <div>
+          <h2 id="cv-title">CV</h2>
+          <p>Descarga una versión PDF concisa de mi CV.</p>
+        </div>
+        <a class="btn" href="cv/cv.pdf" download>Descargar CV</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contacto</h2>
+        <div class="contact-grid">
+          <div>
+            <p>Correo</p>
+            <a href="#">Por añadir</a>
+          </div>
+          <div>
+            <p>GitHub</p>
+            <a href="https://github.com/j-alberto-lopez">github.com/j-alberto-lopez</a>
+          </div>
+          <div>
+            <p>LinkedIn</p>
+            <a href="#">Por añadir</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Menos es más. Este portfolio busca convencer, no impresionar.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
